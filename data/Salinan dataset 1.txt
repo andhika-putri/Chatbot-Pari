@@ -1,0 +1,108 @@
+{
+    "intents": [
+        {
+          "tag" : "salam",
+          "patterns": [
+              "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          ],
+          "responses": [
+              "Hallo kawan ! Selamat datang di Chatbot Pari, mau berwisata kemanakah kamu hari ini ?"
+          ]
+        },
+        {
+          "tag": "selamat_tinggal",
+          "patterns": [
+              "Dah",
+              "Dadah",
+              "Bye",
+              "Byee",
+              "Good bye",
+              "Selamat tinggal",
+              "Sampai jumpa",
+              "Bai",
+              "See you"
+          ],
+         "responses": [
+              "Bye!",
+              "Dadahh!",
+              "Good bye!",
+              "Dahh, semoga harimu menyenangkan yaa!",
+              "Sampai jumpa lagi!",
+              "See u! Senang bisa membantu"
+         ]
+        },
+        {
+          "tag": "terimakasih",
+          "patterns": [
+            "Thanks",
+            "Thank you",
+            "Terima kasih",
+            "Makasih",
+            "Terima kasih banyak"
+          ],
+         "responses": [
+             "Dengan senang hati :)"
+         ]
+        },
+        {
+          "tag": "kota_yogyakarta",
+          "patterns": [
+            "Kota Yogyakarta"
+          ],
+         "responses": [
+             "Kota Yogyakarta atau yang sering dikenal dengan Kota Jogja merupakan ibu kota dan pusat pemerintahan Daerah Istimewa Yogyakarta, Indonesia. Kota ini adalah kota besar yang mempertahankan konsep tradisional dan budaya Jawa. Kota Yogyakarta adalah kediaman bagi Sultan Hamengkubuwana dan Adipati Paku Alam. Kota Yogyakarta merupakan salah satu kota terbesar di Indonesia dan kota terbesar keempat di wilayah Pulau Jawa bagian selatan menurut jumlah penduduk."
+          ]
+        },
+        {
+          "tag": "objek_wisata_bersejarah",
+          "patterns": [
+            "objek wisata di jogja",
+            "objek wisata bersejarah di jogja",
+            "objek wisata yang harus di kunjungi ketika di jogja"
+          ],
+         "responses": [
+             "10 objek wisata yang wajib dikunjungi di jogja 1. Keraton Kotagede 2. Keraton Ngayogyakarta Hadiningrat 3. Situs Taman Sari 4. Situs Warungboto 5. Makam Ratu Mas Malang 6. Ndalem Jayadipuran 7. Ndalem Brontokusuman 8. Monumen Persatuan Sepak Bola Seluruh Indonesia 9. Kelenteng Fuk Ling Miau 10. Panggung Krapyak"
+         ]
+        },
+        {
+          "tag": "objek_keraton",
+          "patterns": [
+            "Keraton Kotagede ?"
+          ],
+         "responses": [
+             "Keraton Kotagede merupakan sebuah kota kuno yang pernah menjadi ibu kota Kesultanan Mataram sekitar tahun 1586–1613 yang sekarang terletak di wilayah administratif Yogyakarta, di kawasan yang kini disebut Kota Gede (kota besar). Kini, peninggalan yang tersisa dari situs ini adalah reruntuhan beberapa bangunan kerajaan, yaitu: benteng, pasar, masjid dan pemakaman."
+         ]
+        },
+        {
+          "tag": "tarif_keraton",
+          "patterns": [
+            "Berapa tarif masuk ke keraton kotagede ?",
+            "Apakah masuk ke keraton kotagede ada biaya masuknya ? "
+          ],
+         "responses": [
+             "Tarif masuk ke Keraton Yogyakarya sebesar Rp. 7000 untuk wisatawan lokal dan Rp.12.500 untuk wisatawan mancanegara"
+         ]
+        },
+        {
+          "tag": "waktu_buka_keraton",
+          "patterns": [
+            "waktu buka keraton jam berapa ?"
+            "waktu tutup keraton jam berapa ?"
+          ],
+         "responses": [
+             "Keraton Yogyakarta dibuka pukul 08.00 - 14.00 WIB setiap hari. Khusus hari juma'at keraton dibuka pukul 08.00 - 12.00 WIB"
+         ]
+        }
+    ]
+}
